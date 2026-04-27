@@ -1,0 +1,29 @@
+.box{
+    box-shadow: 5px 5px 5px gray;
+    padding: 2vh;
+    margin: 1vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 2vh;
+}
+
+.close{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   
+}
+
+.size{
+    width: 2vw;
+    height: 3vh;
+}
+
+.no{
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+.no:hover{
+        cursor: pointer;
+}
